@@ -6,32 +6,16 @@ This is an up-to-date cheatsheet of news, events, and onboarding materials for S
 
 *With Substrate, you get the following customizable functionalities out-of-the-box: A default PoS blockchain, upgradable runtimes, pluggable consensus (PoS, PoW, PoA), block production, synchronization, P2P networking layer, built in crypto primitives, light client support, and an entire suite of ready-to-use [libraries](https://crates.parity.io/srml_staking/index.html?search=srml), i.e. to manage storage, accounts, staking, a treasury, consensus and more.*
 
-## Table of Contents
-* [Happening this Month](#Happening-this-Month)
-    * [Announcements](#Announcements)
-    * [Events](#Events)
-* [Official Wikis](#Official-Wikis)
-* [Official Channels](#Social-Channels)
-* [Tutorials](#Tutorials)
-* [Key Talks](#Key-talks)
-* [Key Articles](#Key-Articles)
-* [Projects](#Projects)
-* [Partnerships](#Partnerships)
-* [Research](#Research)
-* [Timeline](#Timeline)
-* [Security](#Security)
-* [Critiques](#Critiques)
-* [Appendix](#Appendix)
-    * [Historical](#Historical)
-    * [Helpful Diagrams](#Helpful-Diagrams)
+== Table of Contents
+:toc:
 
-## Happening this Month
-### Announcements
+== Happening this Month
+=== Announcements
 - **Now hiring**: Rust developers, runtime engineers, and release managers [here!](https://www.parity.io/jobs/)
 - [26 Apr]: Initial version of [Ink](https://github.com/paritytech/ink/): Substrate's smart contract DSL is ready for experimentation.
 - [9 Apr]: Parity Fether: Ethereum desktop wallet [is live](https://medium.com/paritytech/parity-fether-is-on-ethereum-mainnet-105ed0c7b491)!
 
-### Events
+=== Events
 Substrate talks near you:
 - [Apr 29]: Oslo Blockchain Day
 - [May 6-8]: Re:publica in Berlin ft. Jutta Steiner. [Link](https://re-publica.com/en)
@@ -46,14 +30,14 @@ Join the [Meetup Group](https://www.meetup.com/parity/events/) for more events.
 
 **Featured: Web3Summit tickets [are here](https://web3summit.com/). Coming Aug 19-21 '19.**
 
-## Official Wikis
+== Official Wikis
 - [Substrate Documentation](https://crates.parity.io/): Official reference docs for Substrate in Rust
 - [Substrate Wiki](https://docs.substrate.dev/docs): Tutorials, samples, and in-depth explanations
 - [Polkadot Wiki](https://wiki.polkadot.network/en/latest/): Tutorials, samples, and in-depth explanations
 - [Research Wiki](https://research.web3.foundation/en/latest/): Early research, what's coming down the road
 - [UI Wiki](https://polkadot.js.org/api/): JS API for Polkadot and Substrate
 
-## Social Channels
+== Social Channels
 - [Twitter](https://twitter.com/ParityTech): latest announcements
 - [Riot](https://riot.im/app/#/room/#watercooler:matrix.parity.io): discussion with core devs
 - [Blog](https://www.parity.io/tag/parity-substrate/): technical decisions and company culture
@@ -61,33 +45,33 @@ Join the [Meetup Group](https://www.meetup.com/parity/events/) for more events.
 - [Substrate Reddit](https://www.reddit.com/r/substrate/): Substrate community forum
 - [Polkadot Reddit](https://www.reddit.com/r/dot/): Polkadot community forum
 
-## Tutorials
+== Tutorials
 - [Build a Custom Substrate Runtime](https://docs.substrate.dev/docs/creating-a-custom-substrate-chain): A coin-flip game DAppChain with [@gavofyork](https://github.com/gavofyork)
 - [Build Substrate Kitties](https://shawntabrizi.github.io/substrate-collectables-workshop/#/): A cryptokitty DAppChain on Substrate by [@shawntabrizi](https://github.com/shawntabrizi)
 - [Build a TCR Chain](https://docs.substrate.dev/docs/building-a-token-curated-registry-dappchain-using-substrate): A token curated registry DAppChain on Substrate by [@Gautamdhameja](https://github.com/gautamdhameja)
 - [Build a UTXO Chain](https://github.com/nczhu/utxo-workshop): A utxo chain on Substrate by [@Dmitriy K.](https://github.com/0x7CFE)
 - **[New!]**** [Write Smart Contracts in Ink](http://tiny.cc/ink-workshop): A new, domain specific language around writing smart contracts in Substrate.
 
-## Key talks
-### Intro to Parity
+== Key talks
+=== Intro to Parity
 Sourced from [@folsen](https://github.com/folsen) and [@amarRSingh](https://github.com/AmarRSingh)
 * [ZeroKnowledgeFM 58: Kicking off 2019 with Jutta Steiner](https://www.zeroknowledge.fm/58)
 * [ZeroKnowledgeFM 46: Gavin Wood on Polkadot, Sharding and Substrate](https://www.zeroknowledge.fm/46)
 * [ZeroKnowledgeFM 12: How to become a blockchain developer? We ask Gavin Wood](https://www.zeroknowledge.fm/12)
 * [ZeroKnowledgeFM 5: A fireside chat with a couple Parity peeps](https://www.zeroknowledge.fm/5)
 
-### Intro to Web3
+=== Intro to Web3
 * [Web3 Foundation and Polkadot](https://www.youtube.com/watch?v=IiNcAoiPb8k) by Gavin Wood
 * [The Next Evolution of the Internet](https://www.youtube.com/watch?v=ouMK-Q9S7cc) by Gavin Wood
 * [History of Web3](https://www.youtube.com/watch?v=JAyw7FWXncE) by Ryan Zurrer at Polkadot Seoul, December 2018
 * [Introducing Polkadot](https://www.youtube.com/watch?v=lIghiCmHz0U) by Gavin Wood at London Ethereum Meetup, July 2017
 
-### Substrate and Polkadot
+=== Substrate and Polkadot
 * [Motivating Polkadot](https://www.youtube.com/watch?v=O363z8UQYLE) by Bjorn Wagner, Fred Harrysson, August 2018
 * [Polkadot and Parity Substrate](https://www.youtube.com/watch?v=PoHa2p5XzUs) by Bjorn Wagner, Robert Habermeier at Polkadot SF, December 2018
 * [A Case for Substrate and Polkadot](https://www.youtube.com/watch?v=jyieXzflPAk) by Fabian Gompf, October 2018
 
-### Key Developers Talks
+=== Key Developers Talks
 * [Staking on Polkadot](https://www.youtube.com/watch?v=4Wz6FHqaTLk&feature=youtu.be&t=1) by Gav Wood in Hong Kong Apr 2019
 * [Upcoming Polkadot Developments](https://youtu.be/Opj_5ORbyXA?t=21972) by Gavin Wood at the M1 Conference, February 2019
 * [Building DApps with Substrate](https://www.youtube.com/watch?v=Bamo8xjPzVc) by Benjamin Kampmann, February 2019
@@ -109,7 +93,7 @@ Sourced from [@folsen](https://github.com/folsen) and [@amarRSingh](https://gith
 * [Governance: ZeroKnowledgeFM 52: Vlad and Gavin debate blockchain governance](https://www.zeroknowledge.fm/52)
 * [Governance: Epicenter #259 Gavin Wood: Substrate, Polkadot and the Case for On-Chain Governance](https://www.youtube.com/watch?v=eP4mT19S_jg)
 
-## Key Articles
+== Key Articles
 - [What is Substrate](https://www.parity.io/what-is-substrate/)
 - [Substrate in a nutshell](https://www.parity.io/substrate-in-a-nutshell/)
 - [Never fork again](https://medium.com/polkadot-network/never-fork-again-438c5e985cd8)
@@ -117,7 +101,7 @@ Sourced from [@folsen](https://github.com/folsen) and [@amarRSingh](https://gith
 - [A brief summary of everything Substrate and Polkadot](https://www.parity.io/a-brief-summary-of-everything-substrate-polkadot/)
 - [Everything you Need to Know to Prepare for Polkadot](https://medium.com/polkadot-network/everything-you-need-to-know-to-prepare-for-polkadot-32d08b929735?sk=d81a3cebd61fb9b8aaf29a564fe0d303)
 
-## Projects
+== Projects
 Showcasing projects built on Substrate
 - UTXO: UTXO chain built on substrate by @0x7CFE [Repo](https://github.com/0x7CFE/substrate-node-template/tree/utxo)
 - AdEx: Payment channels using Substrate. [Video](https://www.youtube.com/watch?v=1CeI6Oa1BnU). [Repo](https://github.com/AdExNetwork/adex-protocol-substrate).
@@ -134,30 +118,30 @@ Showcasing projects built on Substrate
 - ChainX: cross-chain asset management platform on Substrate [Repo](https://github.com/chainx-org/ChainX)
 - An "Apple Store": sells apples using Substrate. [Repo](https://github.com/osuketh/apple-store-substrate)
 
-## Partnerships
+== Partnerships
 - Partnering with Longhash on a Polkadot incubator [program](https://longhash.com.sg/program)
 
-## Research
+== Research
 - [Polkadot Lightpaper](https://polkadot.network/Polkadot-lightpaper.pdf)
 
-## Timeline
-### Substrate
+== Timeline
+=== Substrate
 ![](https://i.imgur.com/tYt3luX.png)
 
 **As of 8 Feb 2019*
 
-### Polkadot
+=== Polkadot
 ![](https://i.imgur.com/Ga30C1g.png)
 
 **As of 1 Dec 2018
-## Security
-## Critiques
-## Appendix
-### Historical
+== Security
+== Critiques
+== Appendix
+=== Historical
 
-### Helpful Diagrams
+=== Helpful Diagrams
 
-#### Substrate
+==== Substrate
 SRML is composable
 ![](https://i.imgur.com/KXkgK45.png)
 
@@ -167,7 +151,7 @@ Substrate parallelises transactions:
 You can hack at various layers of Substrate:
 ![](https://i.imgur.com/S7m81Ol.png)
 
-#### Polkadot
+==== Polkadot
 Polkadot is composable
 ![](https://i.imgur.com/aMgVQ0n.png)
 
